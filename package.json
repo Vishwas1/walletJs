@@ -1,0 +1,21 @@
+{
+  "name": "walletjs",
+  "version": "1.0.0",
+  "description": "Wallet wrapper library which uses eth-lightwallet for ECDSA algorithm for keypair generation and digital signature",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node testwallet.js"
+  },
+  "author": "Vishwas B Anand",
+  "license": "ISC",
+  "dependencies": {
+    "eth-lightwallet": "^3.0.1"
+  },
+  "engines": {
+    "node": "9.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
